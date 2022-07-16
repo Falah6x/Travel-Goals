@@ -1,0 +1,70 @@
+body {
+    font-family: 'Gantari', sans-serif;
+    margin: 0px;
+    scroll-behavior: smooth;
+}
+
+#logo img {
+    padding: 8px;
+    margin: 8px;
+    width: 80px;
+}
+
+#logo img:hover {
+    filter: drop-shadow(-5px 5px 5px rgb(142, 142, 142));
+}
+
+header {
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 100%;
+}
+
+li {
+    margin: 12px 0px 12px 12px;
+    padding: 12px 12px 12px 12px;
+}
+
+#navv li a {
+    text-decoration: none;
+    font-size: 16px;
+    background-color: #FFD3BF;
+    padding: 8px;
+    border-radius: 8px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+}
+
+li a:hover {
+    box-shadow: -5px 5px 5px rgb(142, 142, 142);
+}
+
+footer {
+    display: flex;
+    height: 70px;
+    background-color: #ffaa5c;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+footer img:hover {
+    filter: drop-shadow(-5px 5px 5px rgb(142, 142, 142));
+}
